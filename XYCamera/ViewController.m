@@ -141,7 +141,7 @@ static NSString *const photoLibraryTitle = @"Vickate";
     
     self.addressLabel = [[UILabel alloc] initWithFrame:CGRectMake(Width - 100, Height - 60, 90, 50)];
     self.addressLabel.centerY = self.takePhotoButton.centerY;
-    self.addressLabel.text = @"亚运村";
+    self.addressLabel.text = @"获取位置...";
     self.addressLabel.textColor = [UIColor whiteColor];
     self.addressLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:self.addressLabel];
